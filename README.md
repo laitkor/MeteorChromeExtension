@@ -1,2 +1,2 @@
-MeteorChromeExtension
+Meteor Chrome Extension
 =====================
