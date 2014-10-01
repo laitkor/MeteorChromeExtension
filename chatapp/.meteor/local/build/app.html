@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html##HTML_ATTRIBUTES##>
+<head>
+  <link rel="stylesheet" href="/chatapp.css?c5b7ed197af82ab889b78e9579c8c0bf68cd1f02">
+
+
+<script type="text/javascript">
+// ##RUNTIME_CONFIG##
+</script>
+
+  <script type="text/javascript" src="/packages/underscore/underscore.js?ddd10605b0cb39a4dd07dc4be922838a1a8f8a14"></script>
+  <script type="text/javascript" src="/packages/meteor/client_environment.js?02b0bc29753ab6e60f6b5544d012c3e965ee2ac9"></script>
+  <script type="text/javascript" src="/packages/meteor/helpers.js?5693eaf373e70b2c6eec80f80d69c50fdf307be2"></script>
+  <script type="text/javascript" src="/packages/meteor/setimmediate.js?93c884c195ceeef971d6b1cd57c6b91781fd649a"></script>
+  <script type="text/javascript" src="/packages/meteor/timers.js?528f367639f0a1be2b26052c9f608f8117609671"></script>
+  <script type="text/javascript" src="/packages/meteor/errors.js?9347e9753a9bf909e9a92e4bba11fce590ca8f68"></script>
+  <script type="text/javascript" src="/packages/meteor/fiber_stubs_client.js?2bc8774737f39b791c34fcc068261b211a321235"></script>
+  <script type="text/javascript" src="/packages/meteor/dynamics_browser.js?93636a058bfa45e0c59f173f50ad13b29cb9f673"></script>
+  <script type="text/javascript" src="/packages/meteor/url_common.js?7d2237ac32ee01513252e74ee9b9d6f004b08e8f"></script>
+  <script type="text/javascript" src="/packages/deps/deps.js?236a9e15251daf3d1bce6d815e815413cd135a88"></script>
+  <script type="text/javascript" src="/packages/reactive-dict/reactive-dict.js?e0c3844e887b3f021dd1331f4e48b7eddbda340c"></script>
+  <script type="text/javascript" src="/packages/logging/logging.js?09322b724185a349f20de46fe2381344548ca48f"></script>
+  <script type="text/javascript" src="/packages/json/json2.js?ca796fb4d2dde9ffba45b8ab39239bbc324c2b37"></script>
+  <script type="text/javascript" src="/packages/reload/reload.js?68d58afeb8adaa6bce5175d959637644a3a64110"></script>
+  <script type="text/javascript" src="/packages/session/session.js?fe3ed1f9db6e69b71738110aefbd130deacd71f1"></script>
+  <script type="text/javascript" src="/packages/random/random.js?30c855539c5f383512deb592f687c633db8d4e66"></script>
+  <script type="text/javascript" src="/packages/ejson/ejson.js?6d215c4283ae5448bf46493323ed90b16698330c"></script>
+  <script type="text/javascript" src="/packages/ejson/base64.js?a1d6f181320fb499d48f35a552ae17ca6e5c3039"></script>
+  <script type="text/javascript" src="/packages/check/match.js?69f1b7ddda3de564c003cdfb6e0a00470b4429d2"></script>
+  <script type="text/javascript" src="/packages/livedata/sockjs-0.3.4.js?230e49f4bc61c91d07c27132d4131ab8bbabcfaf"></script>
+  <script type="text/javascript" src="/packages/livedata/stream_client_sockjs.js?286692bd2cd43877de360d7814560d3bb5865b52"></script>
+  <script type="text/javascript" src="/packages/livedata/stream_client_common.js?bdf4a39b0e4936b8b39917fcd77acd7b032c8098"></script>
+  <script type="text/javascript" src="/packages/ordered-dict/ordered_dict.js?10ec77e4c6494dee2a3a22434086d5b2d6945e3a"></script>
+  <script type="text/javascript" src="/packages/minimongo/minimongo.js?52a4cc22417d7c85c46b962c48894033db95b4c0"></script>
+  <script type="text/javascript" src="/packages/minimongo/selector.js?017888f1629276db7830aa53188d66e59b77aab0"></script>
+  <script type="text/javascript" src="/packages/minimongo/modify.js?7c1975014712f80f1a12ef27d0c7e030f9bbf9c1"></script>
+  <script type="text/javascript" src="/packages/minimongo/diff.js?c003f7c32aa3fc09e8ab99f3890f80c7eaf4f15a"></script>
+  <script type="text/javascript" src="/packages/minimongo/objectid.js?09d331c33bf964aae01e25c6b2c1048d5c038a23"></script>
+  <script type="text/javascript" src="/packages/livedata/livedata_common.js?34c82c445f20fbadfcbe244a09a5e92f2ab1cff6"></script>
+  <script type="text/javascript" src="/packages/livedata/livedata_connection.js?f47bbf3122b2bdafd66db73f5d7ad05b0ced2f0b"></script>
+  <script type="text/javascript" src="/packages/livedata/client_convenience.js?17dab8b8246785af4d2c07c92008c9d648243d75"></script>
+  <script type="text/javascript" src="/packages/mongo-livedata/local_collection_driver.js?c9b6a4bb75f8186c58c9b0142d02e0d4a29ad21d"></script>
+  <script type="text/javascript" src="/packages/mongo-livedata/collection.js?ee011232935d2eb0932c11c435cc634c23fe08c7"></script>
+  <script type="text/javascript" src="/packages/jquery/jquery.js?225967be9bc20da40a54fcd26f45271aa91162ec"></script>
+  <script type="text/javascript" src="/packages/domutils/domutils.js?dc06ef72ffd14770da510705009b8e91a396bb53"></script>
+  <script type="text/javascript" src="/packages/liverange/liverange.js?ecc6cf508017382d3ef5bb713c07fa20be56d600"></script>
+  <script type="text/javascript" src="/packages/universal-events/listener.js?39b53da854430d8309f5389a4089415a72a43f10"></script>
+  <script type="text/javascript" src="/packages/universal-events/events-w3c.js?db7a2646e525f0d861c02184f3fd90a45f5d05de"></script>
+  <script type="text/javascript" src="/packages/universal-events/events-ie.js?d7feff9fffaab93b15eb1364a22f872b9262ab4b"></script>
+  <script type="text/javascript" src="/packages/spark/spark.js?50394f188dd949b422055ae2517322f0c376bd32"></script>
+  <script type="text/javascript" src="/packages/spark/patch.js?d37c04304a854aab94d494d6684589d2e2741874"></script>
+  <script type="text/javascript" src="/packages/spark/convenience.js?534765fcc48299c8fbeecd2377c4259d6f1e0b1f"></script>
+  <script type="text/javascript" src="/packages/spark/utils.js?6feb8e98e3e831b52189551cea20091985714294"></script>
+  <script type="text/javascript" src="/packages/templating/deftemplate.js?9db61cc34bb26aa29808e85251f6488a02b78de5"></script>
+  <script type="text/javascript" src="/packages/startup/startup_client.js?282c3d9945312f51015124c3587f95780ec128f0"></script>
+  <script type="text/javascript" src="/packages/handlebars/evaluate.js?272988e37bca8ba6f1674550f7d093bb19fc70f4"></script>
+  <script type="text/javascript" src="/packages/past/past.js?3860120b1ba982105667f539b5ff278dd2eb4064"></script>
+  <script type="text/javascript" src="/packages/preserve-inputs/preserve-inputs.js?70cb1b332a390b9fb5994506df1c5aa3bd96d86a"></script>
+  <script type="text/javascript" src="/template.chatapp.js?76a44f822b48877baf73d29722c3a11c443b14db"></script>
+  <script type="text/javascript" src="/chatapp.js?85448b3758a29fb0776d010bb1fafe91c244fcc2"></script>
+  <script type="text/javascript" src="/models.js?971108476a2b90b019a88472b2275a6048a0bf3a"></script>
+
+
+<title>chatapp</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+</body>
+</html>
